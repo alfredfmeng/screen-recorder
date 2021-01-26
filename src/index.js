@@ -11,7 +11,7 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
-    icon: path.join(app.getAppPath(), 'build/icon.png'),
+    // icon: path.join(app.getAppPath(), 'build/icon.png'),
     webPreferences: {
       nodeIntegration: true,
       enableRemoteModule: true
